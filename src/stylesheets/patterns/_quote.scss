@@ -1,0 +1,137 @@
+
+  .quote {
+
+    border: 1px solid #eaeaea;
+    margin-bottom: 28px;
+    padding: 20px 20px 15px 20px;
+    width: 100%;
+
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: #4a4a4a;
+    text-align: left;
+
+    p {
+
+      margin: 0;
+
+    }
+
+    strong {
+
+      font-weight: 500;
+
+    }
+
+  }
+
+  .quote--author {
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    padding-top: 5px;
+    text-transform: uppercase;
+
+  }
+
+  .quote--logo {
+
+    padding-top: 20px;
+    text-align: right;
+
+  }
+
+
+
+  @media only screen and (max-width: 699px) {
+
+    .quotes {
+
+      padding: 80px 20px;
+
+    }
+
+  }
+
+  @media only screen and (max-width: 999px) and (min-width: 700px) {
+
+    .quotes {
+
+      max-width: 768px;
+      margin: 0 auto;
+      padding: 80px 50px;
+
+    }
+
+    .quotes:after, .quotes:before {
+      display: table;
+      content: " ";
+    }
+
+    .quotes:after {
+      clear: both;
+    }
+
+    .c0 {
+
+      padding-right: 14px;
+      float: left;
+      width: 50%;
+
+    }
+
+    .c3 {
+
+      width: 50%;
+      padding-left: 14px;
+      float: left;
+
+    }
+
+  }
+
+
+  @media only screen and (min-width: 1000px) {
+
+    .quotes {
+
+      max-width: 1024px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 80px 50px;
+
+    }
+
+    .c1,
+    .c2,
+    .c3 {
+
+      width: 33%;
+      float: left;
+
+    }
+
+    .c1 {
+
+      padding-right: 14px;
+
+    }
+
+    .c2 {
+
+      padding-left: 14px;
+      padding-right: 14px;
+
+    }
+
+    .c3 {
+
+      padding-left: 14px;
+
+    }
+
+  }

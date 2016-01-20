@@ -1,0 +1,20 @@
+
+  # OS generated files #
+
+  .DS_Store?
+  ehthumbs.db
+  Icon?
+  Thumbs.db
+  *.DS_Store
+
+
+  # Project distribution files #
+
+  dist/
+
+
+  # Gulp files #
+
+  node_modules/
+  npm-debug.log
+  .sass-cache/

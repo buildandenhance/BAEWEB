@@ -1,0 +1,57 @@
+
+  .panel--team {
+
+    background-color: #ffffff;
+
+    .link {
+
+      color: #4a4a4a;
+
+    }
+
+    .link--border {
+
+      border-color: #4a4a4a;
+
+    }
+
+  }
+
+  .teamcta {
+
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10vh;
+
+    text-align: center;
+
+    h1 {
+
+      color: #4a4a4a;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 44px;
+      letter-spacing: 0.5px;
+
+    }
+
+  }
+
+
+  @media only screen and (max-width: 450px) {
+
+    .teamcta {
+
+      padding-left: 50px;
+      padding-right: 50px;
+
+      h1 {
+
+        font-size: 32px;
+       line-height: 38px;
+
+      }
+
+    }
+
+  }

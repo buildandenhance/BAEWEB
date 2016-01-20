@@ -1,0 +1,216 @@
+
+  .footer {
+
+    background-color: #2e2e2e;
+
+  }
+
+  .footer__legal {
+
+    color: #9b9b9b;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 19px;
+
+  }
+
+  .footer__cta {
+
+    p {
+
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 42px;
+      letter-spacing: 0.5px;
+
+    }
+
+    a {
+
+      border: 1px solid #ffffff;
+      border-radius: 2px;
+      float: right;
+      margin-left: 20px;
+      padding: 10px 20px;
+
+      text-decoration: none;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 20px;
+
+    }
+
+  }
+
+  .footer__address  {
+
+    padding-top: 25px;
+
+    h2 {
+
+      color :#aeaeae;
+      font-size: 12px;
+      font-weight: 400;
+      text-transform: uppercase;
+
+    }
+
+    p {
+
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 21px;
+
+    }
+
+    a {
+
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 0 10px 0;
+
+      color: #219ede;
+      font-size: 16px;
+      line-height: 20px;
+      text-decoration: underline;
+
+    }
+
+  }
+
+  .footer__talktohuman {
+
+    a {
+
+      color: #219ede;
+      font-size: 22px;
+      line-height: 26px;
+      text-decoration: none;
+
+    }
+
+    p {
+
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 22px;
+
+    }
+
+  }
+
+  .footer__row {
+
+    display: table;
+    width: 100%;
+
+  }
+
+  .footer__row--line {
+
+    border-bottom: 1px solid #4a4a4a;
+    padding-bottom: 25px;
+
+  }
+
+  .footer__left,
+  .footer__right {
+
+    display:table-cell;
+    vertical-align:top;
+
+  }
+
+  .footer__right {
+
+    text-align:right
+
+  }
+
+  @media only screen and (max-width: 699px) {
+
+
+    .footer__cta p span {
+
+      display: none;
+
+    }
+
+    .footer__address {
+
+      padding-bottom: 50px;
+
+      text-align: center;
+
+    }
+
+    .footer__container {
+
+      padding: 20px;
+
+    }
+
+    .footer__legal,
+    .footer__talktohuman {
+
+      max-width: 260px;
+      margin: 0 auto;
+
+      text-align: center;
+
+    }
+
+
+    .footer__legal p {
+
+      margin-top: 1em;
+
+    }
+
+    .footer__talktohuman {
+
+      margin-bottom: 20px;
+
+    }
+
+  }
+
+  @media only screen and (min-width: 700px) {
+
+    .footer {
+
+      height: 50vh;
+      min-height: 400px;
+
+    }
+
+    .footer__container {
+
+      margin:0 auto;
+      padding: 20px 30px;
+      height:50vh;
+      position: relative;
+      min-height: 400px;
+
+    }
+
+    .footer__talktohuman {
+
+      bottom:30px;
+      float:right;
+      position:absolute;
+      right:30px;
+
+      text-align: right;
+
+    }
+
+    .footer__legal {
+
+      bottom:30px;
+      position:absolute;
+      left:30px;
+
+    }
+
+  }

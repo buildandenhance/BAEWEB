@@ -1,0 +1,50 @@
+
+  .panel--intro {
+
+    background-color: #0fa9b5;
+
+    p {
+
+      margin-top: 1em;
+      max-width: 500px;
+
+      font-size: 22px;
+      letter-spacing: 0.5px;
+      line-height: 33px;
+
+    }
+
+    h1 {
+
+      font-size: 40px;
+      font-weight: 500;
+      line-height: 40px;
+
+    }
+
+    .panel__header {
+
+      padding: 20px 30px;
+
+    }
+
+  }
+
+  .panel__content--intro {
+
+    padding-top: 20vh;
+
+  }
+
+
+  /* Responsive Adapters */
+
+  @media only screen and (max-width: 699px) {
+
+    .panel__content--intro {
+
+      padding-top: 10vh;
+
+    }
+
+  }
