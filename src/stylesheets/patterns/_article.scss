@@ -14,7 +14,7 @@
 
     em {
 
-      font-weight: 500;
+      font-weight: $font_weight_bold;
       font-style: normal;
       text-decoration: underline;
 
@@ -28,8 +28,6 @@
 
     p {
 
-      color: #ffffff;
-      font-weight: 300;
       font-size: 18px;
       line-height: 25px;
       text-decoration: none;
@@ -41,7 +39,7 @@
 
   .article__container {
 
-    border-top: 2px solid #fff;
+    border-top: 2px solid $colour_grey_lightest;
     margin-top: 20px;
 
   }

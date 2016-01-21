@@ -14,14 +14,13 @@
 
     em {
 
-      font-weight: 500;
+      font-weight: $font_weight_bold;
       font-style: normal;
 
     }
 
     p {
 
-      font-weight: 300;
       font-size: 18px;
       line-height: 25px;
       text-decoration: none;
@@ -32,7 +31,7 @@
     h1 {
 
       font-size: 40px;
-      font-weight: 500;
+      font-weight: $font_weight_bold;
       line-height: 40px;
 
     }

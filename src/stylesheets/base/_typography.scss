@@ -1,15 +1,22 @@
 
+
+  /* Font Weights */
+  $font_weight_light:  300;
+  $font_weight_normal: 400;
+  $font_weight_bold:   500;
+
+
   body {
 
+    color: $colour_grey_lightest;
     font-family: "helvetica neue", helvetica, arial, sans-serif;
-    color: #ffffff;
+    font-weight: $font_weight_light;
 
   }
 
-
   a {
 
-    color: #ffffff;
+    color: $colour_grey_lightest;
     text-decoration: none;
 
   }
