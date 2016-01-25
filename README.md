@@ -1,13 +1,26 @@
-
 BUILD &amp; ENHANCE website source code.
+
+This code utilises [Gulp](http://gulpjs.com/) to build up the website from the source (src) code.
+
+4 tasks for building the code;
+
+- __clean__: removes any old files from dist (distribution)
+- __html__: copies all the HTML files over
+- __assets__: copies all assets over; images, favicon.ico and robots.txt
+- __styles__: compiles the sass files into a single css file, creates a duplicate file, minimises the css and then appends a .min to the filename
+
+2 additional tasks for the local development
+
+- __watch__: watches the source files for any changes and runs any associated tasks (html, assets, styles)
+- __connnect__: creates a local webserver pointing to the dist folder
 
 
 ### Requirements
 
-- Node
+- Node.js
 - npm
 
-> __Install information__: https://docs.npmjs.com/getting-started/installing-node
+> __Installation information__: https://docs.npmjs.com/getting-started/installing-node
 
 ### Installation
 
