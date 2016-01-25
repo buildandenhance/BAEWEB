@@ -1,15 +1,14 @@
 
   .footer {
 
-    background-color: #2e2e2e;
+    background-color: $colour_grey_darker;
 
   }
 
   .footer__legal {
 
-    color: #9b9b9b;
+    color: $colour_grey;
     font-size: 12px;
-    font-weight: 300;
     line-height: 19px;
 
   }
@@ -18,7 +17,6 @@
 
     p {
 
-      font-weight: 300;
       font-size: 16px;
       line-height: 42px;
       letter-spacing: 0.5px;
@@ -27,14 +25,13 @@
 
     a {
 
-      border: 1px solid #ffffff;
+      border: 1px solid $colour_grey_lightest;
       border-radius: 2px;
       float: right;
       margin-left: 20px;
       padding: 10px 20px;
 
       text-decoration: none;
-      font-weight: 300;
       font-size: 14px;
       line-height: 20px;
 
@@ -48,9 +45,9 @@
 
     h2 {
 
-      color :#aeaeae;
+      color: $colour_grey_light;
       font-size: 12px;
-      font-weight: 400;
+      font-weight: $font_weight_normal;
       text-transform: uppercase;
 
     }
@@ -58,7 +55,7 @@
     p {
 
       font-size: 15px;
-      font-weight: 400;
+      font-weight: $font_weight_normal;
       line-height: 21px;
 
     }
@@ -69,8 +66,9 @@
       margin-top: 20px;
       padding: 10px 0 10px 0;
 
-      color: #219ede;
+      color: $colour_action_blue;
       font-size: 16px;
+      font-weight: $font_weight_normal;
       line-height: 20px;
       text-decoration: underline;
 
@@ -82,8 +80,9 @@
 
     a {
 
-      color: #219ede;
+      color: $colour_action_blue;
       font-size: 22px;
+      font-weight: $font_weight_normal;
       line-height: 26px;
       text-decoration: none;
 
@@ -92,7 +91,6 @@
     p {
 
       font-size: 14px;
-      font-weight: 300;
       line-height: 22px;
 
     }
@@ -108,7 +106,7 @@
 
   .footer__row--line {
 
-    border-bottom: 1px solid #4a4a4a;
+    border-bottom: 1px solid $colour_grey_dark;
     padding-bottom: 25px;
 
   }
@@ -126,6 +124,9 @@
     text-align:right
 
   }
+
+
+  /* Responsive Adapters */
 
   @media only screen and (max-width: 699px) {
 

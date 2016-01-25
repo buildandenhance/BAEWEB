@@ -1,17 +1,17 @@
 
   .panel--team {
 
-    background-color: #ffffff;
+    background-color: $colour_grey_lightest;
 
     .link {
 
-      color: #4a4a4a;
+      color: $colour_grey_dark;
 
     }
 
     .link--border {
 
-      border-color: #4a4a4a;
+      border-color: $colour_grey_dark;
 
     }
 
@@ -27,8 +27,8 @@
 
     h1 {
 
-      color: #4a4a4a;
-      font-weight: 500;
+      color: $colour_grey_dark;
+      font-weight: $font_weight_bold;
       font-size: 36px;
       line-height: 44px;
       letter-spacing: 0.5px;
@@ -37,6 +37,8 @@
 
   }
 
+
+  /* Responsive Adapters */
 
   @media only screen and (max-width: 450px) {
 

@@ -1,5 +1,4 @@
 
-
   /* Base */
 
   @import "base/palette";
@@ -7,15 +6,16 @@
   @import "base/typography";
 
 
-  /* Page */
+  /* Page Styles */
 
   @import "pages/home";
+  @import "pages/hireus";
   @import "pages/pc";
   @import "pages/ui";
   @import "pages/ux";
 
 
-  /* Patterns */
+  /* Pattern Styles */
 
   @import "patterns/article";
   @import "patterns/button";
