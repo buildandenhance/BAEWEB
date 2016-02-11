@@ -1,0 +1,35 @@
+
+  .page--error {
+
+    background-color: $colour_grey_lightest;
+
+    .article__content,
+    .article__content a,
+    .article__content .link,
+    .navigation .link {
+
+      color: $colour_grey_darker;
+
+    }
+
+    .article__container,
+    .link {
+
+      border-color: $colour_grey_darker;
+
+    }
+
+    .article__container {
+
+      padding-top: 10px;
+
+      a {
+
+        color: $colour_action_blue;
+        text-decoration: underline;
+
+      }
+
+    }
+
+  }

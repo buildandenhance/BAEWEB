@@ -10,6 +10,7 @@
       notify  = require('gulp-notify'),
       rename  = require('gulp-rename'),
       sass    = require('gulp-ruby-sass'),
+      svgmin = require('gulp-svgmin'),
       watch   = require('gulp-watch');
 
   gulp.task('clean', function() {
@@ -27,6 +28,15 @@
     return gulp.src('src/assets/**/*')
       .pipe(gulp.dest('dist'))
       .pipe(notify({ message: 'Assets task complete' }))
+      .pipe(connect.reload());
+  });
+
+
+  gulp.task('images', ['assets'], function () {
+    return gulp.src('dist/images/*.svg')
+      .pipe(svgmin())
+      .pipe(gulp.dest('dist/images'))
+      .pipe(notify({ message: 'SVG images optimised task complete' }))
       .pipe(connect.reload());
   });
 
@@ -54,6 +64,11 @@
     });
   });
 
+
   gulp.task('default', ['clean'], function() {
-    gulp.start('html', 'assets', 'styles', 'connect', 'watch');
+    gulp.start('html', 'assets', 'images', 'styles');
+  });
+
+  gulp.task('dev', ['default'], function() {
+    gulp.start('connect', 'watch');
   });

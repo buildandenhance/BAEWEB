@@ -31,11 +31,16 @@ $ npm install
 ### Usage
 
 ```
+$ gulp dev
+```
+
+> The website will be compiled from _src_ into _dist_
+
+```
 $ gulp
 ```
 
-> A local webserver will generated and the website will be available on http://127.0.0.0.1:8080
-
+> The website will be compiled from _src_ into _dist_, and a local webserver will generated with the website available on http://127.0.0.0.1:8080
 
 ### Common Issues
 
